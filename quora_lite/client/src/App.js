@@ -17,7 +17,7 @@ function App() {
   return(
     <>
       
-      <Router>
+      {/* <Router>
           <Routes>
          
           <Route exact path = '/' element={ user && user._id?<Homepage setuser ={setuser} /> : <Login setUser={setuser} />} />
@@ -26,8 +26,8 @@ function App() {
 
         </Routes>
       
-        </Router>
-        {/* <Profile/> */}
+        </Router> */}
+        <Profile/>
       
   
     </>
